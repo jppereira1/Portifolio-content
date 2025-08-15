@@ -6,16 +6,13 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- FIM GOOGLE FONTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- FIM BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="style.css">
-
     <script src="menu.js" defer></script>
-
-    <title>Portfólio João - Data Analytics & Engineer</title>
+    <title>Portfólio | João Pedro Pereira - Data Analytics & Engineering</title>
+    <meta name="description" content="Portfólio de João Pedro Pereira, especialista em Data Analytics e Engenharia de Dados. Transformando dados em decisões através de Power BI, SQL, Databricks e Python.">
 </head>
 <body>
     
@@ -23,24 +20,24 @@
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <img src="images/logo.png" alt="Logo da Agência BRN">
+                    <img src="images/logo.png" alt="Logo João Pedro Pereira">
                 </a>
-            </div><!--logo-->
+            </div>
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
-            </div><!--btn-contato-->
+            </div>
 
             <div class="btn-abrir-menu" id="btn-menu">
                 <i class="bi bi-list"></i>
@@ -50,121 +47,120 @@
                 <div class="btn-fechar">
                     <i class="bi bi-x-lg"></i>
                 </div>
-
                 <nav>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
-
-            </div><!--menu-mobile-->
+            </div>
             <div class="overlay-menu" id="overlay-menu"></div>
-        </div><!--interface-->
+        </div>
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <!-- TOPO -->
+        <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>TRANSFORMANDO DADOS EM DECISÕES<span>.</span></h1>
-                        <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, funcionalidade intuitiva e otimização para resultados, estou pronto(a) para criar a presença online dos seus sonhos.</p>
+                        <p>Sou Analista de Dados com formação em Engenharia Civil e experiência no mercado de capitais. Minha missão é transformar grandes volumes de dados em insights estratégicos para apoiar a tomada de decisão.</p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
-                    </div><!--txt-topo-site-->
-
+                    </div>
                     <div class="img-topo-site">
-                        <img src="images/pessoa.png" alt="">
-                    </div><!--img-topo-site-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--topo-do-site-->
+                        <img src="images/pessoa.png" alt="Ilustração João Pedro Pereira">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <section class="especiliadades">
+        <!-- ESPECIALIDADES -->
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
+                        <i class="bi bi-bar-chart-line"></i>
                         <h3>Data Analytics</h3>
-                        <p>Processo ETL: Extract, Tratment and Load. Trabalho desde a extração, passando pelos tratamentos até o carregamento de dados em visuais responsivos.</p>
-                    </div><!--especialidades-box-->
+                        <p>Construção de dashboards interativos e análise exploratória de dados com foco em gerar insights de negócio utilizando Power BI, Excel e Python.</p>
+                    </div>
 
                     <div class="especialidades-box">
-                        <i class="bi bi-cart"></i>
-                        <h3>Data Engineer</h3>
-                        <p>Extração e injestão de dados diretamente na sua Data Warehouse. Mineração de dados por processor de rapagem de dados, planilhas excel e até mesmo arquivos de texto</p>
-                    </div><!--especialidades-box-->
+                        <i class="bi bi-database"></i>
+                        <h3>Data Engineering</h3>
+                        <p>Criação de pipelines de dados no Databricks e SQL, garantindo eficiência em processos ETL e integração de diferentes fontes de dados.</p>
+                    </div>
 
                     <div class="especialidades-box">
-                        <i class="bi bi-wordpress"></i>
-                        <h3>Automações</h3>
-                        <p>Utilização de ferramentas como Playwright e Selenium para realizar automações WEB.</p>
-                    </div><!--especialidades-box-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--especiliadades-->
+                        <i class="bi bi-gear"></i>
+                        <h3>Automação</h3>
+                        <p>Desenvolvimento de automações em Python (Selenium, Playwright) e integração de processos com Power Automate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <section class="sobre">
+        <!-- SOBRE -->
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
-                        <img src="images/foto.png" alt="">
-                    </div><!--img-sobre-->
-
+                        <img src="images/foto.png" alt="Foto João Pedro Pereira">
+                    </div>
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU JOÃO PEDRO PEREIRA.</span></h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At accusantium ducimus dicta suscipit, neque cumque sunt tenetur totam delectus magnam minus ratione. Quidem sequi velit voluptatibus eos omnis ullam officiis.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quidem quae iusto repellendus eaque, ipsum sed voluptate explicabo voluptas, dolorum porro sequi laudantium? Obcaecati quae, dolores illo officiis a numquam.</p>
+                        <p>Sou formado em Engenharia Civil, mas encontrei minha verdadeira paixão no mundo dos dados. Atuo como Analista de Dados no mercado de capitais, onde já liderei projetos de integração, análise e visualização de informações estratégicas.</p>
+                        <p>Meu foco é combinar visão analítica, engenharia de dados e storytelling para gerar soluções que conectem números a decisões inteligentes.</p>
                         <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                        </div><!--btn-social-->
-                    </div><!--txt-sobre-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--sobre-->
+                            <a href="https://www.instagram.com/seuuser" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/seulinkedin" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/seugit" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <section class="portfolio">
+        <!-- PORTFÓLIO -->
+        <section class="portfolio" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto 1</div>
+                    <div class="img-port" style="background-image: url(images/powerbi.jpg);">
+                        <div class="overlay">Dashboard Financeiro</div>
                     </div>
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto 2</div>
+                    <div class="img-port" style="background-image: url(images/databricks.jpg);">
+                        <div class="overlay">Pipeline de Dados</div>
                     </div>
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto 3</div>
+                    <div class="img-port" style="background-image: url(images/python.jpg);">
+                        <div class="overlay">Automação Python</div>
                     </div>
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--portfolio-->
+                </div>
+            </div>
+        </section>
 
-        <section class="formulario">
+        <!-- CONTATO -->
+        <section class="formulario" id="contato">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                <form action="mailto:seuemail@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="nome" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="celular" placeholder="Seu celular:">
+                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
-            </div><!--interface-->
-        </section><!--formulario-->
-
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -172,20 +168,19 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="images/logo.png" alt="Logotipo Agência BRN">
-                    </div><!--logo-footer-->
+                        <img src="images/logo.png" alt="Logo João Pedro Pereira">
+                    </div>
                     <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                    </div><!--btn-social-->
+                        <a href="https://www.instagram.com/seuuser" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/seulinkedin" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/seugit" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                    </div>
                 </div>
-            </div><!--line-footer-->
-
+            </div>
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@bruno.com.br">contato@bruno.com.br</a></p>
-            </div><!--line-footer-->
-        </div><!--interface-->
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:seuemail@gmail.com">seuemail@gmail.com</a></p>
+            </div>
+        </div>
     </footer>
 
 </body>
