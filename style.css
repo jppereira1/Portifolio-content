@@ -440,12 +440,12 @@ footer .line-footer p a {
 
     /* ESPECIALIDADES */
     section.especiliadades {
-        padding: 20px;
-        margin-top: 10px;
+        padding: 10px;
+        margin-top: 5px;
     }
 
     section.especiliadades .flex {
-        gap: 10px
+        gap: 5px
     }
 
     /* SOBRE */
