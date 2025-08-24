@@ -208,7 +208,7 @@ section.especialidades .flex {
     color: #fff;
     padding: 40px;
     border-radius: 20px;
-    margin-top: 45px;
+    margin-top: 35px;
     transition: .2s;
 }
 
@@ -440,7 +440,12 @@ footer .line-footer p a {
 
     /* ESPECIALIDADES */
     section.especiliadades {
-        padding: 40px 8%;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    section.especiliadades .flex {
+        gap: 10px
     }
 
     /* SOBRE */
